@@ -1,0 +1,28 @@
+.policyp {
+    font-family: "Roboto Slab", serif;
+    margin-style: block;
+    background-color: #ccc;
+}
+
+.nav {
+    font-family: Lato, sans-serif !important;
+    background-color: #ddd;
+    margin: 8px;
+    border-style: block;
+    border-width: 2px;
+    border-color: #bbb;
+}
+
+.redback {
+    background-color: #f66
+}
+
+.image {
+    width: 5cm;
+    height: 5cm;
+    border-style: round;
+    background-color: #ebb;
+    margin: 6px;
+    padding: 8px;
+    border-color: #daa;
+}
