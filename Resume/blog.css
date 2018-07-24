@@ -1,0 +1,16 @@
+body {
+    font-family: "Titillium Web", sans-serif;
+}
+
+.nav {
+    font-family: Lato, sans-serif !important;
+    background-color: #ddd;
+    margin: 8px;
+    border-style: block;
+    border-width: 2px;
+    border-color: #bbb;
+}
+
+ul.breadcrumb li {
+    content: &#8811;
+}
