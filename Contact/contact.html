@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Personal Q&A Page">
+    <meta name="author" content="Thomas Da Costa Lobo">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="contact.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen|Lato" rel="stylesheet">
+  </head>
+  
+  <body>
+    <div>
+      <nav class="nav">
+        <ul>
+          <li>
+            <a href="http://html-web-dev-dacostalobot21189124.codeanyapp.com/FinalProject/Home%20Page/index.html">Home</a>
+          </li>
+          <li>
+            <a href="http://html-web-dev-dacostalobot21189124.codeanyapp.com/FinalProject/Blog/blog.html">Blog</a>
+          </li>
+          <li>
+            <a href="http://html-web-dev-dacostalobot21189124.codeanyapp.com/FinalProject/Resume/resume.html">Resume</a>
+          </li>
+          <li>Contact Me (current)</li>
+          <li>
+            <a href="http://html-web-dev-dacostalobot21189124.codeanyapp.com/FinalProject/Privacy/privacy.html">Privacy Policy</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="well well-sm">
+            <form>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="name">
+                      Name
+                    </label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter name" required="required">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">
+                      Email Address
+                    </label>
+                    <div class="input-group">
+                      <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-envelope">
+                        </span>
+                      </span>
+                      <input type="email" class="form-control" id="email" placeholder="Enter email" required="required">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="subject">
+                      Subject
+                    </label>
+                    <select id="subject" name="subject" class="form-control" required="required">
+                      <option value="N/A" selected="">Choose One:</option>
+                      <option value="SPP">Life at Saint Peter's</option>
+                      <option value="Personal">Questions About Me</option>
+                      <option value="Games">Video Game Queries</option>
+                      <option value="Music">Musical Inquiries</option>
+                      <option value="etc.">Other Topics</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="name">
+                      Message
+                    </label>
+                    <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                    placeholder="Message"></textarea>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <form>
+            <legend>
+              <span class="glyphicon glyphicon-check"></span> Thanks! 
+            </legend>
+            <address>
+              <strong>Saint Peter's Preparatory School</strong><br>
+              144 Grand Street<br>
+              Jersey City, New Jersey 07302<br>
+              <abbr title="Phone">
+                P:
+              </abbr>
+                (201) 547-6400
+            </address>
+            <address>
+              <strong>Thomas Da Costa Lobo</strong><br>
+              <a href="mailto:#">
+                tdcl03@outlook.com
+              </a>
+            </address>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
